@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/******  visual   ******/
+.visual { text-align:center; }
+.visual_pc { max-width:100%; }
+.visual_m { display:none; }
+
+@media (max-width:991px){
+  .visual_pc { display:none; }
+  .visual_m { 
+    display:block; 
+    max-width:100%; 
+    margin-top:60px; }
+}
